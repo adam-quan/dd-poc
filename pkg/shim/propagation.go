@@ -46,7 +46,7 @@ func tracerProvider(cfg Config) trace.TracerProvider {
 
 func newTracingInterceptor(tp trace.TracerProvider) (interceptor.Interceptor, error) {
 	return temporalotel.NewTracingInterceptor(temporalotel.TracerOptions{
-		Tracer:            tp.Tracer("github.com/temporalio/doordash-sandbox-poc/shim"),
+		Tracer:            tp.Tracer("github.com/adam-quan/dd-poc/shim"),
 		TextMapPropagator: Propagator,
 	})
 }

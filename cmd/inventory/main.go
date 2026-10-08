@@ -8,8 +8,8 @@ import (
 	"os/signal"
 	"syscall"
 
-	"github.com/temporalio/doordash-sandbox-poc/internal/demo"
-	"github.com/temporalio/doordash-sandbox-poc/service/inventory"
+	"github.com/adam-quan/dd-poc/internal/demo"
+	"github.com/adam-quan/dd-poc/service/inventory"
 )
 
 func main() {

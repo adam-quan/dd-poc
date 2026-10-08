@@ -1,4 +1,4 @@
-module github.com/temporalio/doordash-sandbox-poc
+module github.com/adam-quan/dd-poc
 
 go 1.26.5
 

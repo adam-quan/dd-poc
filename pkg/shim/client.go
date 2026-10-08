@@ -69,7 +69,7 @@ func Dial(cfg Config) (*Client, error) {
 		cfg:     cfg,
 		prod:    prod,
 		sandbox: sandbox,
-		tracer:  tp.Tracer("github.com/temporalio/doordash-sandbox-poc/shim"),
+		tracer:  tp.Tracer("github.com/adam-quan/dd-poc/shim"),
 		log:     cfg.Logger.With("service", cfg.Service),
 		tracing: tracing,
 		owner:   true,

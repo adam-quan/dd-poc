@@ -8,7 +8,7 @@ import (
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/metadata"
 
-	"github.com/temporalio/doordash-sandbox-poc/pkg/shim"
+	"github.com/adam-quan/dd-poc/pkg/shim"
 )
 
 // mdCarrier adapts gRPC metadata to an OTel TextMapCarrier.

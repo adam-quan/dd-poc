@@ -16,8 +16,8 @@ import (
 	"os"
 	"time"
 
-	"github.com/temporalio/doordash-sandbox-poc/pkg/shim"
-	"github.com/temporalio/doordash-sandbox-poc/service/order"
+	"github.com/adam-quan/dd-poc/pkg/shim"
+	"github.com/adam-quan/dd-poc/service/order"
 )
 
 func main() {

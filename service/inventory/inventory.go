@@ -13,8 +13,8 @@ import (
 	"google.golang.org/grpc/credentials/insecure"
 	"google.golang.org/grpc/encoding"
 
-	"github.com/temporalio/doordash-sandbox-poc/pkg/shim"
-	"github.com/temporalio/doordash-sandbox-poc/pkg/shim/shimgrpc"
+	"github.com/adam-quan/dd-poc/pkg/shim"
+	"github.com/adam-quan/dd-poc/pkg/shim/shimgrpc"
 )
 
 type jsonCodec struct{}

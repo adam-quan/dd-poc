@@ -9,9 +9,9 @@ import (
 
 	"github.com/segmentio/kafka-go"
 
-	"github.com/temporalio/doordash-sandbox-poc/pkg/shim/shimkafka"
-	"github.com/temporalio/doordash-sandbox-poc/service/inventory"
-	"github.com/temporalio/doordash-sandbox-poc/service/order"
+	"github.com/adam-quan/dd-poc/pkg/shim/shimkafka"
+	"github.com/adam-quan/dd-poc/service/inventory"
+	"github.com/adam-quan/dd-poc/service/order"
 )
 
 func Env(k, def string) string {

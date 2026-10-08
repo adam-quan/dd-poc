@@ -11,8 +11,8 @@ import (
 	"github.com/segmentio/kafka-go"
 	"go.temporal.io/sdk/client"
 
-	"github.com/temporalio/doordash-sandbox-poc/pkg/shim"
-	"github.com/temporalio/doordash-sandbox-poc/pkg/shim/shimkafka"
+	"github.com/adam-quan/dd-poc/pkg/shim"
+	"github.com/adam-quan/dd-poc/pkg/shim/shimkafka"
 )
 
 // Report is everything observed while driving one order end to end.

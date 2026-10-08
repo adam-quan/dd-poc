@@ -10,7 +10,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/temporalio/doordash-sandbox-poc/pkg/shim"
+	"github.com/adam-quan/dd-poc/pkg/shim"
 )
 
 // SandboxName defaults to $SANDBOX_NAME, then the OS user name.

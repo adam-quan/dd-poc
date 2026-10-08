@@ -8,7 +8,7 @@ import (
 
 	"github.com/segmentio/kafka-go"
 
-	"github.com/temporalio/doordash-sandbox-poc/pkg/shim"
+	"github.com/adam-quan/dd-poc/pkg/shim"
 )
 
 // headerCarrier adapts Kafka headers to an OTel TextMapCarrier.

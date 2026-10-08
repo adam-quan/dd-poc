@@ -18,11 +18,11 @@ import (
 	"go.temporal.io/sdk/worker"
 	"go.temporal.io/sdk/workflow"
 
-	"github.com/temporalio/doordash-sandbox-poc/pkg/shim"
-	"github.com/temporalio/doordash-sandbox-poc/pkg/shim/shimkafka"
-	"github.com/temporalio/doordash-sandbox-poc/pkg/shim/shimtest"
-	"github.com/temporalio/doordash-sandbox-poc/service/inventory"
-	"github.com/temporalio/doordash-sandbox-poc/service/order"
+	"github.com/adam-quan/dd-poc/pkg/shim"
+	"github.com/adam-quan/dd-poc/pkg/shim/shimkafka"
+	"github.com/adam-quan/dd-poc/pkg/shim/shimtest"
+	"github.com/adam-quan/dd-poc/service/inventory"
+	"github.com/adam-quan/dd-poc/service/order"
 )
 
 type env struct {
