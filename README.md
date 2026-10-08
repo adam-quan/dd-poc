@@ -32,6 +32,8 @@ flowchart LR
   C -. "lookup (memo)" .-> reg
 ```
 
+Design rationale and architecture diagrams: [docs/DESIGN.md](docs/DESIGN.md).
+
 ## Quick start
 
 ```bash
